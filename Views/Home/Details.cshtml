@@ -1,0 +1,45 @@
+﻿@model CRUDInADO.NET.Models.Records
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Records</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ADDRESS)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ADDRESS)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CITY)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CITY)
+        </dd>
+    </dl>
+    
+    <form asp-action="Details">
+        @*  there is one main and imp point "tahir =model.id or item.id"
+        its compulsory to mention/use exact tahir in specified action method  *@
+        @Html.ActionLink("Edit","Edit",new {tahir =Model.Id}) |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
