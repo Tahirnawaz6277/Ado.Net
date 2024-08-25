@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDInADO.NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8533d7f5c1f0d8834221d0e40fd52f62e0802858")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDInADO.NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDInADO.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
